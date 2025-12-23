@@ -1,39 +1,39 @@
 {
-  "name": "PATRON-MD",
+  "name": "PASCHAL-MD",
   "description": "WhatsApp Bot",
   "logo": "https://raw.githubusercontent.com/Itzpatron/PATRON-DATA/refs/heads/main/logo/patronimg.png",
-  "keywords": ["PATRON-MD"],
+  "keywords": ["PASCHAL-MD"],
   "success_url": "/",
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "PATRON-MD~d7061e784bc5303a7b72c2dcd9b0d880",
       "required": true,
       "value": ""
     },  
     
     "STICKER_NAME": {
-      "description": "type your sticker pack name.",
+      "description": "PASCHAL",
       "required": false,
-      "value": "PATRON-MD"
+      "value": "PASCHAL"
     }, 
       
     "PREFIX": {
-      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "description": ".",
       "required": false,
       "value": "."
     },
     
     "MODE": {
-      "description": "select your bot work type public-private-inbox-group.",
+      "description": "PRIVATE",
       "required": false,
-      "value": "public"
+      "value": "private"
     },
     
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
       "required": false,
-      "value": "false"  
+      "value": "true"  
     },  
   
     "AUTO_VOICE": {
@@ -63,7 +63,7 @@
     "AUTO_STATUS_REACT": {
       "description": "make it true for automatic status reaction or like.",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
 
     "AUTO_STATUS_REPLY": {
@@ -74,20 +74,20 @@
 
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
-      "required": true,
-      "value": "*SEEN YOUR STATUS BY PATRON-MD 🚹*"
+      "required": false,
+      "value": "*SEEN YOUR STATUS BY PASCHAL*"
     }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
-      "required": false,
-      "value": "ᴘᴀᴛʀᴏɴTᴇᴄʜＸ 🚹"
+      "required": true,
+      "value": "PASCHAL"
     }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "2348133729715"
+      "value": "2347074164483"
     }, 
     
     "ANTI_BAD": {
